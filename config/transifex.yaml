@@ -9,6 +9,6 @@ filters:
   - filter_type: file
     file_format: pot
     source_language: en
-    translation_files_expression: 'messages/*/*<lanh>.po'
+    translation_files_expression: 'messages/*/*<lang>.po'
 source_files:
   - path: messages/*
