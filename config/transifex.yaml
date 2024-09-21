@@ -11,4 +11,4 @@ filters:
     source_language: en
     translation_files_expression: 'messages/*/*<lang>.po'
 source_files:
-  - path: messages/*
+  - path: 'messages/*'
