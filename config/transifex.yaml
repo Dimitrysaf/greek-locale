@@ -10,6 +10,5 @@ filters:
   - filter_type: 'file'
     file_format: 'pot'
     source_language: 'en'
-    target_languages: 'el'
     translation_files_expression: 'messages/*/*<lang>.po'
     source_file: 'messages/*'
