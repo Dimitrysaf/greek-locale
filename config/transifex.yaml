@@ -1,0 +1,10 @@
+project: greek-locale
+username: dimitrys_af
+source_language: en
+target_languages:
+  - el
+source_files:
+  - path: messages/*
+    format: pot
+    filters:
+      - include: '.*\.pot$'
