@@ -5,8 +5,8 @@ source_language: en
 target_languages:
   - el
 filters:
-  - filter_type: is_required
-    regex: '.*\.pot$'
+  - filter_type: file
+    include: '.*\.pot$'
 source_files:
   - path: messages/*
     format: pot
