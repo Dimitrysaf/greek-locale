@@ -3,8 +3,8 @@ username: dimitrys_af
 source_language: en
 target_languages:
   - el
+filters:
+  - include: '.*\.pot$'
 source_files:
   - path: messages/*
     format: pot
-    filters:
-      - include: '.*\.pot$'
