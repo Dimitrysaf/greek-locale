@@ -1,10 +1,12 @@
+# Transifex configuration
 project: greek-locale
 username: dimitrys_af
 source_language: en
 target_languages:
   - el
 filters:
-  - include: '.*\.pot$'
+  - filter_type: is_required
+    regex: '.*\.pot$'
 source_files:
   - path: messages/*
     format: pot
