@@ -10,5 +10,5 @@ filters:
     file_format: pot
     source_language: en
     translation_files_expression: 'messages/*/*<lang>.po'
-source_files:
+source_file:
   - path: 'messages/*'
