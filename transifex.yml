@@ -1,0 +1,7 @@
+git:
+    filters:
+    - filter_type: dynamic
+    file_format: pot
+    source_file: greek-locale/temlates/*
+    source_language: en
+    translation_files_expression: 'greek-locale/<lang>/*'
