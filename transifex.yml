@@ -1,6 +1,6 @@
 git:
     filters:
-    - filter_type: dynamic
+    - filter_type: file
     file_format: pot
     source_file: greek-locale/temlates/*
     source_language: en
