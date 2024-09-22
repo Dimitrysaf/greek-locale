@@ -2,6 +2,6 @@ git:
     filters:
     - filter_type: file
     file_format: pot
-    source_file: greek-locale/temlates/*
+    source_file: temlates/*
     source_language: en
-    translation_files_expression: 'greek-locale/<lang>/*'
+    translation_files_expression: '/<lang>/*'
